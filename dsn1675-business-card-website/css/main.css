@@ -102,12 +102,6 @@ h1{
 	}
 }
 
-@media only screen and (min-width: 50.75em){
-	.intro{
-		margin-right: 30%;
-	}
-}
-
 @media only screen and (min-width: 43.75em){
 	.intro{
 		margin-left: 30%;
@@ -116,6 +110,14 @@ h1{
 
 	}
 }
+
+@media only screen and (min-width: 50.75em){
+	.intro{
+		margin-right: 30%;
+	}
+}
+
+
 
 .me{
 	width: 100%;
