@@ -1,0 +1,172 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale:1;}
+
+html{
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+
+*, *::before, *::after {
+	box-sizing:inherit;
+}
+
+body{
+	margin:0;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #E5E4DA;
+}
+
+.masthead{
+	background-color: #005879;
+	overflow: hidden;
+	position: relative;
+
+}
+
+.logo{
+	width: 5rem;
+	margin: auto;
+	display: block;
+	padding-top: 1em;
+
+}
+
+nav a{
+	float: right;
+	color: #E5E4DA;
+	text-decoration: none;
+	padding: 1em;
+	position: absolute;
+	top: 2em;
+
+}
+
+a:link{
+	color: #fff;
+}
+
+.banner{
+	margin: 0;
+}
+
+.me{
+	width: 100%
+}
+
+@media only screen and (min-width: 50em){
+.me{
+	width: 4em;
+}
+	
+}
+
+h1{
+	top: 4rem;
+	position: absolute;
+	font-family: 'Great Vibes', cursive;
+	font-size: 2rem;
+	padding: 2em;
+	color: #E5E4DA;
+	text-shadow: 2px 5px 6px black;
+}
+
+@media only screen and (min-width: 31.25em){
+	h1{
+		font-size: 3rem;
+	}
+}
+.intro{
+	margin: 1em;
+
+}
+
+@media only screen and (min-width: 50em){
+	.intro{
+		margin-left: 20em;
+	}
+}
+
+.me{
+	width: 100%;
+}
+
+.linked-in{
+	display: block;
+	margin: auto;
+	padding: 1em;
+}
+
+@media only screen and (min-width: 31.25em){
+	.linked-in{
+		display: inline-block;
+		
+		
+		
+	}
+}
+
+.tumblr{
+	display: block;
+	margin: auto;
+	padding: 1em;
+}
+@media only screen and (min-width: 31.25em){
+	.tumblr{
+		display: inline-block;
+		
+		
+		}
+	}
+
+.facebook{
+	display: block;
+	margin: auto;
+	padding: 1em;
+}
+@media only screen and (min-width: 31.25em){
+	.facebook{
+		display: inline-block;
+		
+	}
+	}
+
+.logo-bottom{
+	width: 2rem;
+	margin: auto;
+	display: block;
+	padding-top: 1em;
+}
+
+.footer{
+	background-color: #005879;
+}
+
+.contact a{
+	display: block;
+	padding: 0.5rem;
+	text-align: center;
+	font-size: 0.8em;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+.contact{
+	background-color: #dcf2fd;
+}
+
+a:hover{
+	color: #fff;
+}
+
+
+h3{
+	margin: 1em;
+}
