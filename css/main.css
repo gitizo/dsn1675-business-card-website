@@ -131,6 +131,10 @@ h1{
 	}
 }
 
+.social{
+	text-align: center;
+}
+
 .linked-in{
 	display: block;
 	margin: auto;
@@ -138,23 +142,18 @@ h1{
 }
 
 @media only screen and (min-width: 31.25em){
-	.linked-in{
+		.linked-in{
 		display: inline-block;
 		padding: 2em;
-		
-	}
+}
 }
 
 @media only screen and (min-width: 43.75em){
-	.linked-in{
-		margin-left: 20%
-	}
+
 }
 
 @media only screen and (min-width: 50em){
-	.linked-in{
-		margin-left: 21%;
-	}
+
 }
 
 .tumblr{
