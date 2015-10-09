@@ -140,9 +140,20 @@ h1{
 @media only screen and (min-width: 31.25em){
 	.linked-in{
 		display: inline-block;
+		padding: 2em;
 		
-		
-		
+	}
+}
+
+@media only screen and (min-width: 43.75em){
+	.linked-in{
+		margin-left: 20%
+	}
+}
+
+@media only screen and (min-width: 50em){
+	.linked-in{
+		margin-left: 21%;
 	}
 }
 
@@ -154,6 +165,7 @@ h1{
 @media only screen and (min-width: 31.25em){
 	.tumblr{
 		display: inline-block;
+		padding: 2em;
 		
 		
 		}
@@ -167,7 +179,7 @@ h1{
 @media only screen and (min-width: 31.25em){
 	.facebook{
 		display: inline-block;
-		
+		padding: 2em;
 	}
 	}
 
@@ -192,6 +204,11 @@ h1{
 	color: black;
 }
 
+@media only screen and (min-width: 31.25em){
+	.contact a{
+		display: inline-block;
+	}
+}
 .contact{
 	background-color: #dcf2fd;
 }
