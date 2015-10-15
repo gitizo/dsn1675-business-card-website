@@ -20,11 +20,11 @@ html{
 body{
 	margin:0;
 	font-family: 'Source Sans Pro', sans-serif;
-	background-color: #E5E4DA;
+	background-color: #f6fdff;
 }
 
 .masthead{
-	background-color: #005879;
+	background-color: #f6fdff;
 	overflow: hidden;
 	position: relative;
 
@@ -40,17 +40,17 @@ body{
 
 nav a{
 	float: right;
-	color: #E5E4DA;
+	color: #f2ca40;
 	text-decoration: none;
 	padding: 1em;
 	position: absolute;
 	top: 2em;
+	font-weight: 300;
 
 }
 
-a:link{
-	color: #fff;
-}
+
+
 
 .banner{
 	margin: 0;
@@ -70,11 +70,13 @@ a:link{
 h1{
 	top: 4rem;
 	position: absolute;
-	font-family: 'Great Vibes', cursive;
+	font-family: 'Kreon', serif;
+	font-weight: 300;
 	font-size: 2rem;
 	padding: 2em;
-	color: #E5E4DA;
-	text-shadow: 2px 5px 6px black;
+	color: #f2ca40;
+	text-shadow: 2px 3px 6px black;
+	
 }
 
 @media only screen and (min-width: 31.25em){
@@ -85,12 +87,17 @@ h1{
 
 @media only screen and (min-width: 50em){
 	h1{
-		font-size: 5rem;
+		font-size: 4.5rem;
 		margin-left: 0.5em;
-		color: #fff;
+		color: #f2ca40;
+		text-shadow: none;
+		top: 0;
 	}
 }
 
+p{
+	font-size: 1rem;
+}
 .intro{
 	margin: 1em;
 
@@ -148,9 +155,7 @@ h1{
 }
 }
 
-@media only screen and (min-width: 43.75em){
 
-}
 
 @media only screen and (min-width: 50em){
 
@@ -189,15 +194,13 @@ h1{
 	padding-top: 1em;
 }
 
-.footer{
-	background-color: #005879;
-}
+
 
 .contact a{
 	display: block;
 	padding: 0.5rem;
 	text-align: center;
-	font-size: 0.8em;
+	font-size: 0.8rem;
 	font-family: 'Source Sans Pro', sans-serif;
 	text-decoration: none;
 	color: black;
@@ -205,11 +208,18 @@ h1{
 
 @media only screen and (min-width: 31.25em){
 	.contact a{
-		display: inline-block;
+		display: block;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 50em){
+	.contact a{
+		font-size: 1rem;
 	}
 }
 .contact{
-	background-color: #dcf2fd;
+	background-color: #f2ca40;
 }
 
 a:hover{
@@ -219,4 +229,6 @@ a:hover{
 
 h3{
 	margin: 1em;
+	color: #f6fdff;
+	font-weight: 300;
 }
