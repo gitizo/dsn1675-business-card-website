@@ -232,6 +232,7 @@ h3{
 	margin: 1em;
 	color: #f6fdff;
 	font-weight: 300;
+	padding-top: 0.5em;
 }
 
 
@@ -246,28 +247,23 @@ h3{
 	}
 
 	.contact a{
+		display: inline-block;
+		margin: 1em;
+	}
+
+	h3{
 		display: none;
 	}
 
-	.contact{
+	.logo-bottom{
 		display: none;
 	}
+	
 
 	.social{
 		display: none;
 	}
 
-	.me{
-		display: none;
-	}
-
-	.intro{
-		display: none;
-	}
-
-	.logo{
-		display: inline-block;
-	}
 
 	h1{
 		float: left;
