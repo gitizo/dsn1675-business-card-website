@@ -203,7 +203,7 @@ p{
 	font-size: 0.8rem;
 	font-family: 'Source Sans Pro', sans-serif;
 	text-decoration: none;
-	color: black;
+	color: #f6fdff;
 }
 
 @media only screen and (min-width: 31.25em){
@@ -216,6 +216,7 @@ p{
 @media only screen and (min-width: 50em){
 	.contact a{
 		font-size: 1rem;
+
 	}
 }
 .contact{
@@ -223,7 +224,7 @@ p{
 }
 
 a:hover{
-	color: #fff;
+	color: black;
 }
 
 
@@ -231,4 +232,47 @@ h3{
 	margin: 1em;
 	color: #f6fdff;
 	font-weight: 300;
+}
+
+
+@media print{
+	nav{
+		display: none;
+	}
+
+	main a::after{
+		content: " (" attr(href) ")";
+		color: #999;
+	}
+
+	.contact a{
+		display: none;
+	}
+
+	.contact{
+		display: none;
+	}
+
+	.social{
+		display: none;
+	}
+
+	.me{
+		display: none;
+	}
+
+	.intro{
+		display: none;
+	}
+
+	.logo{
+		display: inline-block;
+	}
+
+	h1{
+		float: left;
+		margin: 0;
+		position: absolute;
+	}
+	}
 }
