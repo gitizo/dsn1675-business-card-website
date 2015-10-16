@@ -60,12 +60,7 @@ nav a{
 	width: 100%
 }
 
-@media only screen and (min-width: 50em){
-.me{
-	
-}
-	
-}
+
 
 h1{
 	top: 4rem;
@@ -98,14 +93,18 @@ h1{
 p{
 	font-size: 1rem;
 }
+
 .intro{
 	margin: 1em;
-	max-width: 486px;
 
 }
 
-
-
+@media only screen and (min-width: 50em){
+	.intro{
+	margin-left: 35%;
+	margin-right: 20%;
+}
+}
 
 .me{
 	width: 100%;
